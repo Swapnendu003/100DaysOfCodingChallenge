@@ -52,22 +52,16 @@ int main()
 
     for (i = 0; i < n; i++)
     {
-        printf("\nEnter details of student %d:\n", i + 1);
-printf ("\n");
+        printf("Enter details of student %d:\n", i + 1);
         printf("Roll number: ");
         scanf("%d", &data[i].roll);
-printf ("\n");
+        getchar();
         printf("Name: ");
         gets (data[i].name);
-        scanf("%s", data[i].name);
-printf ("\n");
         printf("Department: ");
         gets (data[i].dept);
-        scanf("%s", data[i].dept);
-printf ("\n");
         printf("Course: ");
         scanf("%s", data[i].course);
-printf ("\n");
         printf("Year of joining: ");
         scanf("%d", &data[i].yj);
     }
